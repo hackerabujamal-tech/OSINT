@@ -1,0 +1,12 @@
+run = "npm run dev"
+entrypoint = "src/app/layout.tsx"
+language = "typescript"
+
+[nix]
+channel = "stable-23_11"
+
+[env]
+NEXT_PUBLIC_BASE_URL = "https://localhost:3000"
+
+[debugger]
+support = false
